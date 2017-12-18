@@ -1,0 +1,20 @@
+initalize game play
+    game play difficulty 
+    room obj 
+    var = roon array room obj 
+    create door array ( var door = [1, 0 ,1])
+     
+    Shuffle new door array 
+    render doors by passing door array to render
+listen for door clicks (add event listener to parent dom node in order to utilzie event bubbling )
+    when user clicks on door update door array 
+    if clicked door = 0 
+    0 = true
+    go to next three doors
+    if clicked door = 1
+    1 = false 
+
+    restart game 
+    Shuffle new door array 
+    render new door array 
+    

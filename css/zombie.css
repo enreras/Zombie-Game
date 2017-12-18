@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+
+}
+
+#room, #room1, #room2{
+    display: flex; 
+    justify-content: space-between;  
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    z-index: 2;
+    cursor: pointer;
+}
+body {
+    background-color: rgb(238, 6, 6);
+   
+}
+h1 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+
+#startgame {
+    
+    display: Flex;
+    justify-content: center ;
+    align-items: center;
+    
+    
+
+
+}
